@@ -1,4 +1,4 @@
-# Обяснителен документ за проекта на уебсайт за M4 пушка
+# Обяснителен документ за проекта на уебсайт за автомат M4
 
 ## 1. Въведение
 Този документ очертава разработката на уебсайт, тематизиран около автомат M4. Уебсайтът е структуриран да предоставя информация за автомат M4, включително нейните спецификации, история и фото галерия. Проектът използва HTML5, CSS и JavaScript, съобразени със съвременните уеб стандарти.
@@ -17,15 +17,21 @@ m4-rifle-website
 │   │   ├── thumbnail3.jpg
 │   │   ├── image1.jpg
 │   │   ├── image2.jpg
-│   │   └── image3.jpg
+│   │   ├── image3.jpg
+│   │   └── m4a1.mp4
 │   ├── js
 │   │   └── scripts.js
 │   └── pages
 │       ├── index.html
 │       ├── about.html
 │       ├── gallery.html
-│       └── contact.html
+│       ├── contact.html
+│       ├── accessories.html
+│       ├── variants.html
+│       └── video.html
 ├── README.md
+├── LICENSE
+├── .gitattributes
 └── documentation
     └── explanatory-document.md
 ```
