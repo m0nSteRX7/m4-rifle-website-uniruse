@@ -271,5 +271,19 @@ document.addEventListener('DOMContentLoaded', setupGallery);
 ## 7. Източници
 Всеки зает код или ресурси ще бъдат документирани тук, за да се осигури правилно приписване.
 
+Използвани ресурси:
+- Код:
+https://www.w3schools.com/html/default.asp
+https://www.w3schools.com/css/default.asp
+https://www.w3schools.com/js/default.asp
+
+- Изображения:
+https://gundigest.com/gun-reviews/the-ar-16m16-the-rifle-that-was-never-supposed-to-be
+https://air-soft.gun-evasion.com/colt-m4-airline-airline-carbine-noir-airsoft-fibre-nylon-12j.html
+https://www.del-ton.com/Rifle-Kit-p/rkt100-sf.htm
+
+- Видео:
+https://www.youtube.com/watch?v=p6u2pd2Y2zk
+
 ## 8. Заключение
 Този документ предоставя цялостен преглед на проекта за уебсайт за автомат M4, описвайки структурата, оформлението и използвания код. Уебсайтът има за цел да образова потребителите за автомат M4, като същевременно предоставя ангажиращо потребителско изживяване.
