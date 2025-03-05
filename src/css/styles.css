@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #f4f4f4;
+    padding: 15px;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+}
+
+.left-nav {
+    width: 20%;
+    padding: 1em;
+}
+
+.right-nav {
+    width: 20%;
+    padding: 1em;
+}
+
+.main-content {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: url('../images/bullet.png') no-repeat left center;
+    padding-left: 20px;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+ol li:nth-child(odd) {
+    font-style: italic;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+    width: 70%;
+    padding: 1em;
+}
+
+.photo-gallery figure {
+    margin: 0;
+    text-align: center;
+}
+
+.photo-gallery img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media print {
+    header, footer {
+        display: none;
+    }
+}
+
