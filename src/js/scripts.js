@@ -1,11 +1,11 @@
-// This file contains JavaScript code for interactive elements on the website.
+// Този файл съдържа JavaScript код за интерактивни елементи на уебсайта.
 
-// Function to open the full-sized image from the gallery
+// Функция за отваряне на изображението в пълен размер от галерията
 function openImage(imageSrc) {
     const fullImage = document.createElement('img');
     fullImage.src = imageSrc;
-    fullImage.style.width = '80%'; // Set the width of the full image
-    fullImage.style.height = 'auto'; // Maintain aspect ratio
+    fullImage.style.width = '80%'; // Задаване на ширината на пълното изображение
+    fullImage.style.height = 'auto'; // Поддържане на съотношението на страните
     fullImage.style.position = 'fixed';
     fullImage.style.top = '50%';
     fullImage.style.left = '50%';
@@ -29,7 +29,7 @@ function openImage(imageSrc) {
     document.body.appendChild(fullImage);
 }
 
-// Function to set up gallery click events
+// Функция за настройка на събитията за кликване в галерията
 function setupGallery() {
     const thumbnails = document.querySelectorAll('.thumbnail');
     thumbnails.forEach(thumbnail => {
@@ -40,5 +40,5 @@ function setupGallery() {
     });
 }
 
-// Initialize the gallery when the document is ready
+// Инициализиране на галерията, когато документът е готов
 document.addEventListener('DOMContentLoaded', setupGallery);
