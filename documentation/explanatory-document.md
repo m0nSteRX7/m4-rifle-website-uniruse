@@ -131,6 +131,7 @@ nav {
 .right-nav {
     width: 20%;
     padding: 1em;
+    margin-left: auto;
 }
 
 .main-content {
@@ -190,8 +191,9 @@ tr:nth-child(odd) {
     flex-wrap: wrap;
     justify-content: center;
     gap: 1em;
-    width: 70%;
+    width: calc(100% - 40%); /* Регулирана ширина, за да се побере в основната област на съдържанието, като се вземат предвид и двете навигации */
     padding: 1em;
+    margin: 0 auto; /* Центриране на галерията в основното съдържание */
 }
 
 .photo-gallery figure {

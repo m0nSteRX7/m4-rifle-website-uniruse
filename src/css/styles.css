@@ -32,6 +32,7 @@ nav {
 .right-nav {
     width: 20%;
     padding: 1em;
+    margin-left: auto;
 }
 
 .main-content {
@@ -86,13 +87,15 @@ tr:nth-child(odd) {
     background-color: #ffffff;
 }
 
+/* Фото галерия */
 .photo-gallery {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /* Позволява на снимките да се пренасят на нов ред */
     justify-content: center;
     gap: 1em;
-    width: 70%;
+    width: calc(100% - 40%); /* Регулирана ширина, за да се побере в основната съдържателна област, като се вземат предвид и двата навигационни панела */
     padding: 1em;
+    margin: 0 auto;
 }
 
 .photo-gallery figure {
